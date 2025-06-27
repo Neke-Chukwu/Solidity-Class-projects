@@ -14,8 +14,6 @@ contract simplestorage {
 
      mapping(string =>uint256) public nameToFavoriteNumber;
 
-    // person public jvchike = [{favoriteNumber: 77, name:"jvchike"}];
-    // person public neke = [{favoriteNumber: 25, name:"neke"}];
     
 
      function store (uint256 _favoriteNumber) public{
